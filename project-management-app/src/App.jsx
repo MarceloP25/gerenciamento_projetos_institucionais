@@ -1,5 +1,5 @@
 import './App.css'
-import ProjectRegistration from './pages/ProjectRegistration.js'
+import ProjectRegistration from './pages/ProjectRegistration.jsx'
 
 function App() {
   return (

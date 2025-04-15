@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InputField from '../components/InputField';
 import TextAreaField from '../components/TextAreaField';
 import './ProjectRegistration.css';
-import { db } from '../firebase/firebaseInit';
+import { db } from '../firebase/firebaseUtil';
 import { collection, addDoc } from 'firebase/firestore';
 
 function ProjectRegistration() {

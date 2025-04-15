@@ -1,5 +1,5 @@
 import React from 'react'
-import './InputField.css'
+//import './InputField.css'
 
 const TextAreaField = ({ label, name, value, onChange }) => (
     <div className="input-group">
