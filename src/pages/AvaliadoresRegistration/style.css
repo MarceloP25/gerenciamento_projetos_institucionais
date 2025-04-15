@@ -1,0 +1,155 @@
+/* Avaliadores.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Estilo da barra lateral */
+  .sidebar {
+    width: 200px;
+    background-color: #005500;
+    color: white;
+  }
+  
+  .menu-item {
+    padding: 16px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #004400;
+    cursor: pointer;
+  }
+  
+  .menu-item.active {
+    background-color: #006600;
+  }
+  
+  .menu-item:hover {
+    background-color: #007700;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 24px;
+    border: 1px solid #cccccc;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+  }
+  
+  .evaluators-container {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .evaluators-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .filter-label {
+    font-weight: bold;
+    margin-right: 8px;
+    color: black;
+  }
+  
+  .filter-input {
+    border: 1px solid #cccccc;
+    padding: 4px;
+    width: 160px;
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .register-button {
+    padding: 10px 16px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .register-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Lista de avaliadores */
+  .evaluators-list {
+    margin-top: 20px;
+  }
+  
+  .evaluator-item {
+    display: flex;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 4px;
+    color: black;
+  }
+  
+  .evaluator-item:hover {
+    background-color: #eeeeee;
+  }
+  
+  .evaluator-field {
+    padding: 0 10px;
+  }
+  
+  .evaluator-field.nome {
+    width: 20%;
+    font-weight: bold;
+  }
+  
+  .evaluator-field.email {
+    width: 30%;
+  }
+  
+  .evaluator-field.campus {
+    width: 15%;
+  }
+  
+  .evaluator-field.area {
+    width: 20%;
+  }
+  
+  .evaluator-field.edital {
+    width: 15%;
+  }

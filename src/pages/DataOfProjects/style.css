@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Container principal da página */
+  .page-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Barra lateral */
+  .sidebar {
+    width: 220px;
+    background-color: #005500;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+  }
+  
+  .sidebar-nav a:hover {
+    color: #bdc3c7;
+  }
+  
+  /* Conteúdo principal */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho principal */
+  .main-header {
+    margin-bottom: 20px;
+  }
+  
+  .main-header h1 {
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  /* Seção dos dados do projeto */
+  .project-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .input-row {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Ajusta a largura de cada grupo de forma balanceada */
+    min-width: 200px; /* Para não ficarem muito estreitos */
+    margin-bottom: 10px; /* Espaçamento interno */
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: black;
+  }
+  
+  .input-group input,
+  .input-group select,
+  .input-group textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .input-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  /* Container para o botão */
+  .button-container {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  /* Botão Editar */
+  .edit-button {
+    background-color: #005500;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-button:hover {
+    background-color: #005500;
+  }
+  
