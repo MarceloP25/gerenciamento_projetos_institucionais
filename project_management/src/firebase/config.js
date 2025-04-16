@@ -6,13 +6,13 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyADMGv8JE4kv9uERfH5jHhg839KPJomAjM",
-  authDomain: "secao-projetos-ifrp.firebaseapp.com",
-  projectId: "secao-projetos-ifrp",
-  storageBucket: "secao-projetos-ifrp.firebasestorage.app",
-  messagingSenderId: "827890000263",
-  appId: "1:827890000263:web:55127186df4c4551b03322",
-  measurementId: "G-H057NM01WC"
+  apiKey: "AIzaSyC7JZenvTKVMg2EWBJFirdNZhfm6ep_bVQ",
+  authDomain: "setor-projetos.firebaseapp.com",
+  projectId: "setor-projetos",
+  storageBucket: "setor-projetos.firebasestorage.app",
+  messagingSenderId: "400221572503",
+  appId: "1:400221572503:web:a360e29fa6cae93403c8d2",
+  measurementId: "G-6HB8T6WLXD"
 };
 
 // Initialize Firebase
